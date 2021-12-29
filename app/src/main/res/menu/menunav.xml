@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cnb_unselectedColor="@color/purple_700">
+
+    <item android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/icon_home"
+        app:cnb_backgroundColor="@color/purple_500"
+        app:cnb_iconColor="@color/white"
+        app:cnb_textColor="@color/white"
+        />
+
+    <item android:id="@+id/tiket"
+        android:title="Tiket"
+        android:icon="@drawable/icon_order"
+        app:cnb_backgroundColor="@color/purple_500"
+        app:cnb_iconColor="@color/white"
+        app:cnb_textColor="@color/white"
+        />
+
+    <item android:id="@+id/bayar"
+        android:title="Bayar"
+        android:icon="@drawable/code_scanner"
+        app:cnb_backgroundColor="@color/purple_500"
+        app:cnb_iconColor="@color/white"
+        app:cnb_textColor="@color/white"
+        />
+
+    <item android:id="@+id/history"
+        android:title="History"
+        android:icon="@drawable/icon_history"
+        app:cnb_backgroundColor="@color/purple_500"
+        app:cnb_iconColor="@color/white"
+        app:cnb_textColor="@color/white"
+        />
+
+    <item android:id="@+id/akun"
+        android:title="Akun"
+        android:icon="@drawable/icon_akun"
+        app:cnb_backgroundColor="@color/purple_500"
+        app:cnb_iconColor="@color/white"
+        app:cnb_textColor="@color/white"
+        />
+</menu>

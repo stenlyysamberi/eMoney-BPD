@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:scaleType="fitCenter"
+        android:id="@+id/image_slider"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"/>
+
+
+    <TextView
+        android:id="@+id/header"
+       android:padding="10dp"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#232323"
+        android:text="Header text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/dec_title"
+        android:layout_marginEnd="45dp"
+        android:layout_marginStart="45dp"
+        android:textColor="@color/purple_700"
+        android:textAlignment="center"
+        android:text="This is the child text decs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/drawable-v24/bg_circle.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/drawable-v24/indikator_color.xml" value="0.10677083333333333" />
+        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/drawable-v24/rounder_navbar.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/drawable-v24/tv_input.xml" value="0.15625" />
+        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/drawable/back.xml" value="0.15625" />
+        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/drawable/bg_shape.xml" value="0.1546875" />
+        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/drawable/gradiant_bg.xml" value="0.178125" />
+        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/drawable/icon_bayar.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/SheetPanduan.xml" value="0.22" />
+        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/activity_detail_image.xml" value="0.18" />
+        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/activity_detail_venue.xml" value="0.25" />
+        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/activity_isi_saldo.xml" value="0.22" />
+        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/activity_register.xml" value="0.33" />
+        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/activity_slider.xml" value="0.25" />
+        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/activity_splash.xml" value="0.2" />
+        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/costum_dialog.xml" value="0.33" />
+        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/fragment_akun.xml" value="0.1213768115942029" />
+        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/fragment_home.xml" value="0.3190376569037657" />
+        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/fragment_order.xml" value="0.1213768115942029" />
+        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/fragment_ticket.xml" value="0.1213768115942029" />
+        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/item.xml" value="0.18" />
+        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/row_isi_saldo.xml" value="0.33" />
+        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/row_list_image.xml" value="0.33" />
+        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/row_venue.xml" value="0.33" />
+        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/sheet_kontak.xml" value="0.25" />
+        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/sheet_panduan.xml" value="0.25" />
+        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/toolbar_all.xml" value="0.1105072463768116" />
+        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/toolbar_home.xml" value="0.33" />
+        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/menu/menunav.xml" value="0.17864583333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
