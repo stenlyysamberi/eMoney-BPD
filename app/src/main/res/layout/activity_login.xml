@@ -63,11 +63,11 @@
 
 
                         <TextView
-                            android:drawableLeft="@drawable/google"
                             android:id="@+id/login_google"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_centerVertical="true"
+                            android:drawableLeft="@drawable/google"
                             android:drawablePadding="12dp"
                             android:padding="10dp"
                             android:text="Google"

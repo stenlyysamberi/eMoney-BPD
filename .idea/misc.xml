@@ -16,19 +16,23 @@
         <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/activity_detail_venue.xml" value="0.25" />
         <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/activity_isi_saldo.xml" value="0.22" />
         <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/activity_login.xml" value="0.33" />
-        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/activity_my_order.xml" value="0.10326086956521739" />
         <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/activity_register.xml" value="0.33" />
-        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/activity_slider.xml" value="0.25" />
+        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/activity_slider.xml" value="0.22" />
         <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/activity_splash.xml" value="0.2" />
         <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/costum_dialog.xml" value="0.33" />
-        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/fragment_akun.xml" value="0.1213768115942029" />
-        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/fragment_home.xml" value="0.3190376569037657" />
-        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/fragment_order.xml" value="0.1213768115942029" />
-        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/fragment_ticket.xml" value="0.1213768115942029" />
+        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/fragment_akun.xml" value="0.25" />
+        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/fragment_order.xml" value="0.18" />
+        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/fragment_proses.xml" value="0.10733695652173914" />
+        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/fragment_riwayat.xml" value="0.10733695652173914" />
+        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/fragment_ticket.xml" value="0.25" />
         <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/item.xml" value="0.18" />
         <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/row_isi_saldo.xml" value="0.33" />
         <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/row_list_image.xml" value="0.33" />
         <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/row_venue.xml" value="0.33" />
+        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/row_wisata.xml" value="0.33" />
         <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/sheet_kontak.xml" value="0.25" />
         <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/sheet_panduan.xml" value="0.25" />
         <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/toolbar_all.xml" value="0.1105072463768116" />

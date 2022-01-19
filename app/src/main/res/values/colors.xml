@@ -13,5 +13,6 @@
     <color name="hijau_muda">#B3E0B8</color>
 
     <color name="transparant">#05FFFFFF</color>
+    <color name="transparant_black">#49000000</color>
 
 </resources>

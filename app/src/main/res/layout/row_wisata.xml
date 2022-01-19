@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="5dp"
+        app:cardCornerRadius="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/foto_wisata"
+            android:scaleType="centerCrop"
+            android:src="@drawable/suntik"
+            android:layout_width="300dp"
+            android:layout_height="300dp"/>
+
+        <LinearLayout
+
+            android:background="@color/transparant_black"
+            android:layout_gravity="bottom"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:id="@+id/nama_wisata"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Mariam Beach"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:textSize="12dp"
+                android:id="@+id/alamat_wisata"
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                android:text="Jl. Airport Sentani, Kab.Jayapura - Papua"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

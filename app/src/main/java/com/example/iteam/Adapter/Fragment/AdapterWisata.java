@@ -13,19 +13,17 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.iteam.Activity.Detail_Venue_Activity;
-import com.example.iteam.Activity.SplashActivity;
-import com.example.iteam.MainActivity;
 import com.example.iteam.R;
 import com.squareup.picasso.Picasso;
 
 
-public class AdapterVenue extends RecyclerView.Adapter<AdapterVenue.ViewHolder> {
+public class AdapterWisata extends RecyclerView.Adapter<AdapterWisata.ViewHolder> {
 
     Context context;
     String data1[], data2[];
     String [] images;
 
-    public AdapterVenue(Context context, String[] data1, String[] data2, String[] images) {
+    public AdapterWisata(Context context, String[] data1, String[] data2, String[] images) {
         this.context = context;
         this.data1 = data1;
         this.data2 = data2;
@@ -36,7 +34,7 @@ public class AdapterVenue extends RecyclerView.Adapter<AdapterVenue.ViewHolder> 
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         LayoutInflater layoutInflater = LayoutInflater.from(context);
-        View view = layoutInflater.inflate(R.layout.row_venue,parent,false);
+        View view = layoutInflater.inflate(R.layout.row_wisata,parent,false);
         return new ViewHolder(view);
     }
 
@@ -44,8 +42,10 @@ public class AdapterVenue extends RecyclerView.Adapter<AdapterVenue.ViewHolder> 
     public void onBindViewHolder(@NonNull ViewHolder holder, @SuppressLint("RecyclerView") int position) {
         holder.nama_venue.setText(data1[position]);
         holder.alamat_venue.setText(data2[position]);
-//        holder.imageView.setImageResource(images[position]);
+
         Picasso.with(context).load(images[position]).into(holder.imageView);
+
+//      holder.imageView.setImageResource(images[position]);
 
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -71,9 +71,9 @@ public class AdapterVenue extends RecyclerView.Adapter<AdapterVenue.ViewHolder> 
         TextView nama_venue,alamat_venue;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
-            imageView = itemView.findViewById(R.id.img_venue);
-            nama_venue = itemView.findViewById(R.id.nama_venue);
-            alamat_venue = itemView.findViewById(R.id.alamat_venue);
+            imageView = itemView.findViewById(R.id.foto_wisata);
+            nama_venue = itemView.findViewById(R.id.nama_wisata);
+            alamat_venue = itemView.findViewById(R.id.alamat_wisata);
         }
     }
 }

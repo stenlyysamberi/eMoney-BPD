@@ -42,8 +42,11 @@ public class HomeFragment extends Fragment {
 
         try {
 
-            int[] images = {R.drawable.icon_bank,R.drawable.keluar,R.drawable.medical,R.drawable.pat};
-            String [] header = {"Lukas Enembe Stadium","Pool Swiming","Futzal","Tenis Lapangan"};
+            String [] images = {"https://th.bing.com/th/id/OIP.qf_P2ERv8eNjQispa6V1VAHaEK?pid=ImgDet&rs=1",
+            "https://cdn-asset.jawapos.com/wp-content/uploads/2020/05/JAYAPURA-GOR-WARINGIN-RIANA-1-1125x750.jpg",
+            "https://football-tribe.com/indonesia/wp-content/uploads/sites/10/2019/03/Mandala-Krida.jpg",
+            "https://cdn-asset.jawapos.com/wp-content/uploads/2019/09/polo-air.jpg"};
+            String [] header = {"Lukas Enembe Stadium","Gor Waringin","Stadium Mandala","Tenis Lapangan"};
             String [] alamat = {
                     "Jl.Airport Sentani, Kampung Harapan",
                     "Jl.Airport Sentani, Kampung Harapan",
