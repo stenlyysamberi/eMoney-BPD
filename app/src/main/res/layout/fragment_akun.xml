@@ -19,235 +19,241 @@
         android:textColor="@color/purple_700"
         android:textSize="20dp" />
 
-    <androidx.cardview.widget.CardView
-       android:layout_margin="12dp"
-        android:layout_alignParentBottom="true"
-        android:layout_gravity="bottom"
-        app:cardCornerRadius="10dp"
-        app:cardBackgroundColor="@color/purple_700"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <TextView
-
-            android:textAlignment="center"
-            android:padding="12dp"
-            android:text="Keluar"
-            android:textSize="20dp"
-            android:textColor="@color/white"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-
-    </androidx.cardview.widget.CardView>
-
-
 
     <ScrollView
-        android:layout_marginLeft="12dp"
-        android:layout_marginRight="12dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/thely">
+        android:layout_below="@+id/thely"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="100dp">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/wisata" />
+
+                </androidx.cardview.widget.CardView>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Stenly Samberi"
+                        android:textColor="@color/purple_700"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="+6281224452338"
+                        android:textColor="@color/purple_700" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="stenly.samberi@outlook.co.id"
+                        android:textColor="@color/purple_700" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Akun"
+                    android:textColor="@color/dark"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:drawableLeft="@drawable/icon_order"
+                    android:drawableRight="@drawable/arrow_kanan"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="@color/purple_700"
+                    android:text="Pesanan"
+                    android:textColor="@color/purple_700"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:drawableLeft="@drawable/ic_baseline_document_scanner_24"
+                    android:drawableRight="@drawable/arrow_kanan"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="@color/purple_700"
+                    android:text="Tampilkan QR Code"
+                    android:textColor="@color/purple_700"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:drawableLeft="@drawable/ic_bahasa"
+                    android:drawableRight="@drawable/arrow_kanan"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="@color/purple_700"
+                    android:text="Pilih Bahasa"
+                    android:textColor="@color/purple_700"
+                    android:textSize="15dp" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        android:drawableLeft="@drawable/scan_biomatrik"
+                        android:drawablePadding="10dp"
+                        android:drawableTint="@color/purple_700"
+                        android:text="Smart login"
+                        android:textColor="@color/purple_700"
+                        android:textSize="15dp" />
+
+                    <Switch
+
+                        android:layout_marginTop="12dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
 
 
 
-       <LinearLayout
-           android:orientation="vertical"
-           android:layout_width="match_parent"
-           android:layout_height="match_parent">
 
-           <LinearLayout
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content">
 
-               <androidx.cardview.widget.CardView
-                   android:layout_marginTop="12dp"
-                   app:cardCornerRadius="100dp"
-                   app:cardBackgroundColor="@color/white"
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content">
+                </LinearLayout>
 
-                   <ImageView
-                       android:scaleType="centerCrop"
-                       android:src="@drawable/wisata"
-                       android:layout_width="40dp"
-                       android:layout_height="40dp"/>
 
-               </androidx.cardview.widget.CardView>
 
-               <LinearLayout
-                   android:layout_margin="12dp"
-                   android:orientation="vertical"
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:drawableLeft="@drawable/ic_baseline_help_24"
+                    android:drawableRight="@drawable/arrow_kanan"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="@color/purple_700"
+                    android:text="Bantuan dan Laporan Saya "
+                    android:textColor="@color/purple_700"
+                    android:textSize="15dp" />
 
-                   <TextView
-                       android:textSize="20dp"
-                       android:textColor="@color/purple_700"
-                       android:textStyle="bold"
-                       android:text="Stenly Samberi"
-                       android:layout_width="wrap_content"
-                       android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:drawableLeft="@drawable/tersimpan"
+                    android:drawableRight="@drawable/arrow_kanan"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="@color/purple_700"
+                    android:text="Disimpan"
+                    android:textColor="@color/purple_700"
+                    android:textSize="15dp" />
 
-                   <TextView
-                       android:textColor="@color/purple_700"
-                       android:text="+6281224452338"
-                       android:layout_width="wrap_content"
-                       android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Info lainnya"
+                    android:textColor="@color/dark"
+                    android:textSize="12dp" />
 
-                   <TextView
-                       android:textColor="@color/purple_700"
-                       android:text="stenly.samberi@outlook.co.id"
-                       android:layout_width="wrap_content"
-                       android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:drawableLeft="@drawable/kebijakan_dan_privasi"
+                    android:drawableRight="@drawable/arrow_kanan"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="@color/purple_700"
+                    android:text="Kebijakan Privasi"
+                    android:textColor="@color/purple_700"
+                    android:textSize="15dp" />
 
-               </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:drawableLeft="@drawable/ketentuan_layanana"
+                    android:drawableRight="@drawable/arrow_kanan"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="@color/purple_700"
+                    android:text="Ketentuan Layanan"
+                    android:textColor="@color/purple_700"
+                    android:textSize="15dp" />
 
-           </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:drawableLeft="@drawable/ic_baseline_favorite_24"
+                    android:drawableRight="@drawable/arrow_kanan"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="@color/purple_700"
+                    android:text="Beri rating"
+                    android:textColor="@color/purple_700"
+                    android:textSize="15dp" />
 
-           <LinearLayout
-               android:layout_marginRight="12dp"
-               android:layout_marginLeft="12dp"
-               android:orientation="vertical"
-               android:layout_width="match_parent"
-               android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:drawableLeft="@drawable/ic_baseline_logout_24"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="@color/purple_700"
+                    android:text="Keluar"
+                    android:textColor="@color/purple_700"
+                    android:textSize="15dp" />
 
-               <TextView
-                   android:textSize="12dp"
-                   android:textColor="@color/dark"
-                   android:text="Akun"
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"/>
+            </LinearLayout>
 
-               <TextView
-                   android:drawableRight="@drawable/arrow_kanan"
-                   android:layout_marginBottom="12dp"
-                   android:layout_marginTop="12dp"
-                   android:drawableTint="@color/purple_700"
-                   android:drawablePadding="10dp"
-                   android:drawableLeft="@drawable/icon_order"
-                   android:text="Pesanan"
-                   android:textColor="@color/purple_700"
-                   android:textSize="15dp"
-                   android:layout_width="match_parent"
-                   android:layout_height="wrap_content"/>
-
-               <TextView
-                   android:drawableRight="@drawable/arrow_kanan"
-                   android:layout_marginBottom="12dp"
-                   android:layout_marginTop="12dp"
-                   android:drawableTint="@color/purple_700"
-                   android:drawablePadding="10dp"
-                   android:drawableLeft="@drawable/ic_baseline_document_scanner_24"
-                   android:text="Tampilkan QR Code"
-                   android:textColor="@color/purple_700"
-                   android:textSize="15dp"
-                   android:layout_width="match_parent"
-                   android:layout_height="wrap_content"/>
-
-               <TextView
-                   android:drawableRight="@drawable/arrow_kanan"
-                   android:layout_marginBottom="12dp"
-                   android:layout_marginTop="12dp"
-                   android:drawableTint="@color/purple_700"
-                   android:drawablePadding="10dp"
-                   android:drawableLeft="@drawable/ic_bahasa"
-                   android:text="Pilih Bahasa"
-                   android:textColor="@color/purple_700"
-                   android:textSize="15dp"
-                   android:layout_width="match_parent"
-                   android:layout_height="wrap_content"/>
-
-               <TextView
-                   android:drawableRight="@drawable/arrow_kanan"
-                   android:layout_marginBottom="12dp"
-                   android:layout_marginTop="12dp"
-                   android:drawableTint="@color/purple_700"
-                   android:drawablePadding="10dp"
-                   android:drawableLeft="@drawable/scan_biomatrik"
-                   android:text="Smart login"
-                   android:textColor="@color/purple_700"
-                   android:textSize="15dp"
-                   android:layout_width="match_parent"
-                   android:layout_height="wrap_content"/>
-
-               <TextView
-                   android:drawableRight="@drawable/arrow_kanan"
-                   android:layout_marginBottom="12dp"
-                   android:layout_marginTop="12dp"
-                   android:drawableTint="@color/purple_700"
-                   android:drawablePadding="10dp"
-                   android:drawableLeft="@drawable/ic_baseline_help_24"
-                   android:text="Bantuan dan Laporan Saya "
-                   android:textColor="@color/purple_700"
-                   android:textSize="15dp"
-                   android:layout_width="match_parent"
-                   android:layout_height="wrap_content"/>
-
-               <TextView
-                   android:drawableRight="@drawable/arrow_kanan"
-                   android:layout_marginBottom="12dp"
-                   android:layout_marginTop="12dp"
-                   android:drawableTint="@color/purple_700"
-                   android:drawablePadding="10dp"
-                   android:drawableLeft="@drawable/tersimpan"
-                   android:text="Disimpan"
-                   android:textColor="@color/purple_700"
-                   android:textSize="15dp"
-                   android:layout_width="match_parent"
-                   android:layout_height="wrap_content"/>
-
-               <TextView
-                   android:layout_marginTop="12dp"
-                   android:textSize="12dp"
-                   android:textColor="@color/dark"
-                   android:text="Info lainnya"
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"/>
-
-               <TextView
-                   android:drawableRight="@drawable/arrow_kanan"
-                   android:layout_marginBottom="12dp"
-                   android:layout_marginTop="12dp"
-                   android:drawableTint="@color/purple_700"
-                   android:drawablePadding="10dp"
-                   android:drawableLeft="@drawable/kebijakan_dan_privasi"
-                   android:text="Kebijakan Privasi"
-                   android:textColor="@color/purple_700"
-                   android:textSize="15dp"
-                   android:layout_width="match_parent"
-                   android:layout_height="wrap_content"/>
-
-               <TextView
-                   android:drawableRight="@drawable/arrow_kanan"
-                   android:layout_marginBottom="12dp"
-                   android:layout_marginTop="12dp"
-                   android:drawableTint="@color/purple_700"
-                   android:drawablePadding="10dp"
-                   android:drawableLeft="@drawable/ketentuan_layanana"
-                   android:text="Ketentuan Layanan"
-                   android:textColor="@color/purple_700"
-                   android:textSize="15dp"
-                   android:layout_width="match_parent"
-                   android:layout_height="wrap_content"/>
-
-               <TextView
-                   android:drawableRight="@drawable/arrow_kanan"
-                   android:layout_marginBottom="12dp"
-                   android:layout_marginTop="12dp"
-                   android:drawableTint="@color/purple_700"
-                   android:drawablePadding="10dp"
-                   android:drawableLeft="@drawable/ic_baseline_favorite_24"
-                   android:text="Beri rating"
-                   android:textColor="@color/purple_700"
-                   android:textSize="15dp"
-                   android:layout_width="match_parent"
-                   android:layout_height="wrap_content"/>
-
-           </LinearLayout>
-
-       </LinearLayout>
-
+        </LinearLayout>
 
 
     </ScrollView>

@@ -2,13 +2,38 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+
     android:layout_height="match_parent"
     tools:context=".Fragment.BayarFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+
+    <!--Frame layout is required as we are using camera view-->
+    <!--Below is the scannerliveview which will scan QR code-->
+
+    <eu.livotov.labs.android.camview.ScannerLiveView
+        android:id="@+id/camview"
+
+        android:background="@color/transparant"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="top"
+        android:text="Arahkan kamera ke kode QR untuk \n melakukan pembayaran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!--TextView to display the scanned data-->
+    <TextView
+        android:id="@+id/idTVscanned"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:padding="5dp"
+        android:textColor="@color/black" />
 
 </FrameLayout>

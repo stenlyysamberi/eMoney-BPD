@@ -22,12 +22,13 @@
         <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/activity_slider.xml" value="0.22" />
         <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/activity_splash.xml" value="0.2" />
         <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/costum_dialog.xml" value="0.33" />
-        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/fragment_akun.xml" value="0.25" />
+        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/fragment_akun.xml" value="0.22" />
+        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/fragment_bayar.xml" value="0.22" />
         <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/fragment_home.xml" value="0.33" />
         <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/fragment_order.xml" value="0.18" />
         <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/fragment_proses.xml" value="0.10733695652173914" />
         <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/fragment_riwayat.xml" value="0.10733695652173914" />
-        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/fragment_ticket.xml" value="0.25" />
+        <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/fragment_ticket.xml" value="0.18" />
         <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/item.xml" value="0.18" />
         <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/row_isi_saldo.xml" value="0.33" />
         <entry key="..\:/Users/Stenly/Documents/iTeam/app/src/main/res/layout/row_list_image.xml" value="0.33" />
@@ -46,5 +47,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.22" />
+      </ProjectState>
+    </option>
   </component>
 </project>

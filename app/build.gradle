@@ -22,6 +22,20 @@ android {
         }
     }
 
+
+//    productFlavors {
+//        sandbox {
+//            buildConfigField "String", "BASE_URL", "\"https://merchant-url-sandbox.com/\""
+//            buildConfigField "String", "CLIENT_KEY", "\"VT-CLIENT-sandbox-client-key\""
+//        }
+//
+//        production {
+//            buildConfigField "String", "BASE_URL", "\"https://merchant-url-production.com/\""
+//            buildConfigField "String", "CLIENT_KEY", "\"VT-CLIENT-production-client-key\""
+//        }
+//    }
+
+
     buildFeatures{
         viewBinding true
     }
@@ -57,4 +71,19 @@ dependencies {
 
     implementation 'com.squareup.picasso:picasso:2.5.2'
 
+    // For Create the QRCode
+    implementation 'androidmads.library.qrgenearator:QRGenearator:1.0.3'
+
+    //For View QRCODE
+    implementation ('eu.livotov.labs.android:CAMView:2.0.1@aar') {transitive=true}
+
+
+
+    // For using the Midtrans Sandbox
+//    implementation 'com.midtrans:uikit:1.28.0-SANDBOX'
+    // change the number to the latest version
+
+    // For using the Midtrans Production
+//    implementation 'com.midtrans:uikit:1.28.0'
+    // change the number to the latest version
 }
