@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+
+    android:id="@+id/error_password"
+    android:background="@drawable/bg_shape"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_margin="12dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:background="@color/dark"
+            android:layout_width="30dp"
+            android:layout_height="1dp"/>
+
+        <ImageView
+            android:layout_gravity="center"
+            android:src="@drawable/salah_password"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+
+        <TextView
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/purple_700"
+            android:text="Eh, Sepertinya kamu belum punya \nakun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textSize="17dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:textColor="@color/dark"
+            android:text="Nomor ini tidak terdaftar di Jaki. Daftar dulu, yuk Gampang kok."
+            android:layout_height="wrap_content"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="15dp"
+            app:cardCornerRadius="20dp"
+            app:cardBackgroundColor="@color/purple_700"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textAlignment="center"
+                android:padding="15dp"
+                android:text="Daftar"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

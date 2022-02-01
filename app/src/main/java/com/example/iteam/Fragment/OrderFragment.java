@@ -24,10 +24,10 @@ public class OrderFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.fragment_home,container,false);
+        View v = inflater.inflate(R.layout.fragment_order,container,false);
 
-        tabLayout =v.findViewById(R.id.tabLayout);
-        viewPager =v.findViewById(R.id.viewpagerOrder);
+//        tabLayout =v.findViewById(R.id.tabLayout);
+//        viewPager =v.findViewById(R.id.viewpagerOrder);
 
 //        FragmentManager fm = getActivity().getSupportFragmentManager();
 //        adapter = new AdapterTabLayout(fm,getLifecycle());

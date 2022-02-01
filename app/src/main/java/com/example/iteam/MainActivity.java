@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
                         fragment = new BayarFragment();
                         break;
                     case R.id.history:
-                        fragment = new RiwayatFragment();
+                        fragment = new OrderFragment();
                         break;
                     case R.id.akun:
                         fragment = new AkunFragment();

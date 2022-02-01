@@ -3,20 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.iteam">
 
-<!--    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />-->
-<!--    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />-->
-<!--    <uses-permission android:name="android.permission.INTERNET" />-->
-<!--    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />-->
-<!--    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />-->
-
-    <!--Permission for camera-->
-    <uses-permission android:name="android.permission.CAMERA" />
-    <!--Permission to vibrate-->
-    <uses-permission android:name="android.permission.VIBRATE"/>
-
-
-
-
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- Permission for camera -->
+    <uses-permission android:name="android.permission.CAMERA" /> <!-- Permission to vibrate -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
 
     <application
         android:allowBackup="true"
@@ -26,6 +20,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ITeam"
         android:usesCleartextTraffic="true">
+        <activity
+            android:name=".Activity.VerifyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Edit_Activity_profil"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Konfirmasi_Top_Up_Activity"
+            android:exported="true" />
         <activity
             android:name=".Activity.MyOrderActivity"
             android:exported="true" />

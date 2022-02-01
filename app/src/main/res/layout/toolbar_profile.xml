@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="15sp"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/title_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_keyboard_backspace_24"
+        android:drawablePadding="10dp"
+        android:drawableTint="@color/purple_700"
+        android:gravity="center_vertical"
+        android:text="Edit Profil"
+        android:textColor="@color/purple_700"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/simpan_profil"
+        android:layout_alignParentRight="true"
+        app:cardCornerRadius="5dp"
+        app:cardBackgroundColor="@color/hijau_tua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+           android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:gravity="right"
+            android:layout_gravity="center"
+            android:padding="4dp"
+            android:text="Simpan"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

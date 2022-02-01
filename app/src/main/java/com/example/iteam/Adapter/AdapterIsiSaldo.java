@@ -13,15 +13,18 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.iteam.R;
+import com.squareup.picasso.Picasso;
 
 
 public class AdapterIsiSaldo extends RecyclerView.Adapter<AdapterIsiSaldo.ViewHolder> {
 
     Context context;
+    int [] images;
     String [] saldo;
 
-    public AdapterIsiSaldo(Context context, String[] saldo) {
+    public AdapterIsiSaldo(Context context, int[] images, String[] saldo) {
         this.context = context;
+        this.images = images;
         this.saldo = saldo;
     }
 
@@ -36,6 +39,7 @@ public class AdapterIsiSaldo extends RecyclerView.Adapter<AdapterIsiSaldo.ViewHo
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, @SuppressLint("RecyclerView") int position) {
         holder.price.setText(saldo[position]);
+        Picasso.with(context).load(images[position]).into(holder.imageView);
 
     }
 
@@ -50,6 +54,7 @@ public class AdapterIsiSaldo extends RecyclerView.Adapter<AdapterIsiSaldo.ViewHo
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             price = itemView.findViewById(R.id.price);
+            imageView = itemView.findViewById(R.id.img_money);
 
         }
     }

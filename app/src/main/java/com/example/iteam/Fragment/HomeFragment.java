@@ -18,7 +18,9 @@ import android.widget.Toast;
 
 import com.example.iteam.Activity.IsiSaldoActivity;
 import com.example.iteam.Activity.LoginActivity;
+import com.example.iteam.Adapter.Fragment.AdapterInfoTerbaru;
 import com.example.iteam.Adapter.Fragment.AdapterVenue;
+import com.example.iteam.Adapter.Fragment.AdapterWisataHome;
 import com.example.iteam.MainActivity;
 import com.example.iteam.R;
 
@@ -28,7 +30,7 @@ public class HomeFragment extends Fragment {
     private ScrollView scrollView;
     MainActivity mainActivity;
 
-    RecyclerView recyclerView;
+    RecyclerView recyclerView, recyclerView2,recyclerView3;
     CardView isi_saldo;
 
     @Override
@@ -45,9 +47,15 @@ public class HomeFragment extends Fragment {
             String [] images = {"https://th.bing.com/th/id/OIP.qf_P2ERv8eNjQispa6V1VAHaEK?pid=ImgDet&rs=1",
             "https://cdn-asset.jawapos.com/wp-content/uploads/2020/05/JAYAPURA-GOR-WARINGIN-RIANA-1-1125x750.jpg",
             "https://football-tribe.com/indonesia/wp-content/uploads/sites/10/2019/03/Mandala-Krida.jpg",
+                    "https://cdn-asset.jawapos.com/wp-content/uploads/2020/05/JAYAPURA-GOR-WARINGIN-RIANA-1-1125x750.jpg",
+                    "https://football-tribe.com/indonesia/wp-content/uploads/sites/10/2019/03/Mandala-Krida.jpg",
             "https://cdn-asset.jawapos.com/wp-content/uploads/2019/09/polo-air.jpg"};
-            String [] header = {"Lukas Enembe Stadium","Gor Waringin","Stadium Mandala","Tenis Lapangan"};
+            String [] header = {"Lukas Enembe Stadium","Gor Waringin","Lukas Enembe Stadium","Gor Waringin","Stadium Mandala","Tenis Lapangan"};
             String [] alamat = {
+
+
+                    "Jl.Airport Sentani, Kampung Harapan",
+                    "Jl.Airport Sentani, Kampung Harapan",
                     "Jl.Airport Sentani, Kampung Harapan",
                     "Jl.Airport Sentani, Kampung Harapan",
                     "Jl.Airport Sentani, Kampung Harapan",
@@ -59,6 +67,19 @@ public class HomeFragment extends Fragment {
             recyclerView.setAdapter(myadapter);
             //recyclerView.setLayoutManager(new GridLayoutManager(getActivity(),2,RecyclerView.HORIZONTAL, false));
             recyclerView.setLayoutManager(new LinearLayoutManager(getActivity(),RecyclerView.HORIZONTAL, false));
+
+
+            recyclerView2 = v.findViewById(R.id.wisataHome);
+            AdapterWisataHome adapterWisataHome = new AdapterWisataHome(getActivity(),header,alamat,images);
+            recyclerView2.setAdapter(adapterWisataHome);
+            recyclerView2.setLayoutManager(new GridLayoutManager(getActivity(),2,RecyclerView.HORIZONTAL, false));
+
+
+            recyclerView3 = v.findViewById(R.id.info_terbaru);
+            AdapterInfoTerbaru adapterinforTerbaru = new AdapterInfoTerbaru(getActivity(),header,alamat,images);
+            recyclerView3.setAdapter(adapterinforTerbaru);
+            recyclerView3.setLayoutManager(new LinearLayoutManager(getActivity(),RecyclerView.HORIZONTAL, false));
+
 
 
         }catch (Exception e){

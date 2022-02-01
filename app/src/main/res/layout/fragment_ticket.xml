@@ -264,7 +264,6 @@
                     android:layout_height="wrap_content"/>
 
                 <androidx.recyclerview.widget.RecyclerView
-
                     android:id="@+id/recy_wisata"
                     android:layout_marginTop="12dp"
                     android:layout_width="match_parent"

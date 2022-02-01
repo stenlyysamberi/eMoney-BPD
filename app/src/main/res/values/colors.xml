@@ -11,8 +11,9 @@
     <color name="dark">#FC3E3E3E</color>
     <color name="orange">#F7C564</color>
     <color name="hijau_muda">#B3E0B8</color>
-
+    <color name="hijau_tua">#048037</color>
     <color name="transparant">#05FFFFFF</color>
     <color name="transparant_black">#49000000</color>
+    <color name="merahs">#E72F2F</color>
 
 </resources>

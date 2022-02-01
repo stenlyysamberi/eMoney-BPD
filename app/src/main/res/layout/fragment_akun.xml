@@ -7,17 +7,17 @@
     tools:context=".Fragment.AkunFragment">
 
     <TextView
-        android:textStyle="bold"
-        android:drawablePadding="12dp"
         android:id="@+id/thely"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:drawableLeft="@drawable/ic_baseline_keyboard_backspace_24"
+        android:drawablePadding="12dp"
         android:drawableTint="@color/purple_700"
         android:padding="12dp"
         android:text="Profilku"
         android:textColor="@color/purple_700"
-        android:textSize="20dp" />
+        android:textSize="20dp"
+        android:textStyle="bold" />
 
 
     <ScrollView
@@ -80,7 +80,23 @@
 
                 </LinearLayout>
 
+                <TextView
+                    android:id="@+id/editProfil"
+                    android:layout_margin="20dp"
+                    android:gravity="right"
+                    android:layout_gravity="center_vertical"
+                    android:drawableTint="@color/purple_700"
+                    android:drawableRight="@drawable/ic_baseline_mode_edit_24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
             </LinearLayout>
+
+            <View
+                android:layout_marginBottom="20dp"
+                android:background="@color/white_Dark"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -97,6 +113,7 @@
                     android:textSize="12dp" />
 
                 <TextView
+                    android:id="@+id/pesanan_saya"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
@@ -110,6 +127,7 @@
                     android:textSize="15dp" />
 
                 <TextView
+                    android:id="@+id/tampil_barcode"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
@@ -141,6 +159,7 @@
                     android:layout_height="wrap_content">
 
                     <TextView
+                        android:id="@+id/tv_smart_login"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
@@ -153,7 +172,7 @@
                         android:textSize="15dp" />
 
                     <Switch
-
+                        android:id="@+id/biometrik_aktiv"
                         android:layout_marginTop="12dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"/>

@@ -5,6 +5,7 @@ import static android.Manifest.permission.VIBRATE;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.biometric.BiometricPrompt;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.viewpager.widget.ViewPager;
@@ -29,6 +30,7 @@ public class SplashActivity extends AppCompatActivity {
 
     private ScannerLiveView camera;
     private TextView scannedTV;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

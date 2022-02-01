@@ -74,6 +74,10 @@ dependencies {
     // For Create the QRCode
     implementation 'androidmads.library.qrgenearator:QRGenearator:1.0.3'
 
+    //For login biometric
+    implementation 'androidx.biometric:biometric:1.0.1'
+    implementation 'androidx.biometric:biometric:1.0.0-rc01'
+
     //For View QRCODE
     implementation ('eu.livotov.labs.android:CAMView:2.0.1@aar') {transitive=true}
 

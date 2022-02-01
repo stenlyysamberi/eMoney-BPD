@@ -28,7 +28,7 @@
         />
 
     <item android:id="@+id/history"
-        android:title="Favorite"
+        android:title="Favorit"
         android:icon="@drawable/ic_baseline_favorite_24"
         app:cnb_backgroundColor="@color/purple_500"
         app:cnb_iconColor="@color/white"

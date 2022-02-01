@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/pilih_foto"
+    android:background="@drawable/bg_shape"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_marginBottom="20dp"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text_header"
+            android:textStyle="bold"
+            android:textColor="@color/purple_700"
+            android:textSize="20dp"
+            android:text="Ganti foto profil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+
+            android:drawableTint="@color/purple_700"
+            android:gravity="center_vertical"
+            android:drawableLeft="@drawable/ic_baseline_insert_photo_24"
+            android:layout_marginTop="20dp"
+            android:drawableRight="@drawable/arrow_kanan"
+            android:textSize="15dp"
+            android:textColor="@color/purple_700"
+            android:text="Pilih dari galeri"
+            android:layout_below="@+id/text_header"
+            android:id="@+id/pilih_foto_galeri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/pilih_foto_galeri"
+            android:background="@color/white_Dark"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <TextView
+
+            android:drawableTint="@color/merahs"
+            android:gravity="center_vertical"
+            android:drawableLeft="@drawable/ic_baseline_delete_24"
+            android:layout_marginTop="20dp"
+            android:textSize="15dp"
+            android:textColor="@color/purple_700"
+            android:text="Hapus foto"
+            android:layout_below="@+id/pilih_foto_galeri"
+            android:id="@+id/hapus_foto_galeri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -19,9 +19,9 @@ public class AdapterTabLayout extends FragmentStateAdapter {
     public Fragment createFragment(int position) {
         switch (position){
             case 1 :
-                return new RiwayatFragment();
-            case 2 :
                 return new ProsesFragment();
+            case 2 :
+                return new RiwayatFragment();
         }
         return new RiwayatFragment();
     }
